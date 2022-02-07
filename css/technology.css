@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(207, 188, 188);
+    background: url("https://images.unsplash.com/photo-1547149600-a6cdf8fce60c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNvbGlkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.logoshinobi{
+    font-size: 1.8rem;
+  margin: 1px 3px;
+  padding: 30px;
+  color: rgb(134, 215, 235);
+  
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    padding-left: 100px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+.search input{
+    padding-left: 40px;
+    margin-left: 40px;
+    width: 650px;
+    height: 30px;
+}
+.search button{
+    width: 38px;
+          height: 35px;
+          background-color: rgb(123, 218, 241);
+          cursor: pointer;
+}
+
+#navbar ul li a{
+    color: rgb(123, 218, 241);
+    display: block;
+}
+#navbar ul li a:hover{
+    color: rgb(244, 246, 247);
+    
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main::before{
+    margin-top: 80px;
+    
+    content: "";
+    position: absolute;
+    
+    
+    height: 750px;
+    width: 1366px;
+    z-index: -1;
+    opacity: 0.89;
+}
+#main .tech img{
+    width: 330px;
+    margin-left: -620px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(2, 30, 41);
+    box-shadow: 2px 3px rgb(119, 241, 235);
+    
+  }
+  #main .tech2 img{
+      margin-right: 40px;
+    margin-left: 930px;
+    margin-top: -410px;
+    margin-bottom: 26px;
+    border: 2px solid rgb(2, 30, 41);
+    box-shadow: 2px 3px rgb(119, 241, 235);
+    
+  }
+  #main .tech3 img{
+      margin-left: 420px;
+      margin-top: -358px;
+      margin-bottom: 210px;
+  }
+  #main .tech4 img{
+    margin-left: 420px;
+    margin-top: -210px;
+    margin-bottom: 30px;
+   
+}
+  
+  #main .first{
+        color: white;
+        font-size: 2.8rem;
+  }
+ .lol{
+     font-size: 1.1rem;
+     color: rgb(123, 218, 241);
+     text-align: center;
+ }
+ #gamezone .game{
+     font-size: 1.4rem;
+     text-align: center;
+     color: rgb(1, 11, 14);
+ }
+ .game{
+    text-align: center;
+    font-size: 2.7rem;
+    color: white;
+}
+#fame{
+   
+    margin: 30px;
+    margin-right: 10px;
+    display: flex;
+
+}
+#fame .box{
+    margin-left: -10px;
+    padding-left: -7px;
+    padding: 10px;
+    margin: 2px 6px;
+    border-radius: 13px;
+    border: 2px solid rgb(23, 112, 134);
+    background: rgb(117, 138, 138);
+    margin-bottom: 20px;
+    text-align: center;
+   font-size: 1rem;
+}
+#fame .box img{
+  height: 180px;
+  margin: auto;
+  display: block;
+}
+#last .last{
+    margin-top: -20PX;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.center{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.dev{
+    padding-left: 20px;
+    float: left;
+  }
+  .box button {
+      cursor: pointer;
+      color: white;
+      background-color: rgb(3, 80, 99);
+      padding: 5px;
+  }
+  .box button:hover{
+      color: black;
+    background-color: rgb(123, 218, 241);
+}
+  .game h2{
+      color: white;
+  }
